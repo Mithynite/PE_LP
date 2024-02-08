@@ -1,0 +1,206 @@
+body{
+    background-color: #ffa629;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#home_page{
+    display: block;
+}
+.hamburger_menu{
+    /*display: flex;*/
+    height: 8vw;
+    width: 7vw;
+    min-width: 40px;
+    min-height: 50px;
+    margin-left: 10px;
+    position: relative;
+    display: none;
+}
+.hamburger_menu span{
+    height: 17%;
+    width: 100%;
+    background-color: #1e1e1e;
+    border-radius: 25px;
+    top:50%;
+    position: absolute;
+}
+.hamburger_menu span:nth-child(1){
+    top:25%;
+}
+.hamburger_menu span:nth-child(3){
+    top:75%;
+}
+#menu{
+    width: 100%;
+    height: 20%;
+    background-color: #ffcd29;
+    color: #1e1e1e;
+    display: flex;
+}
+
+.menu_container{
+    margin: 0;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logo_container{
+    margin-right:3vw;
+    width: 10%;
+    height: 100%;
+}
+#logo{
+    width:65%;
+    padding:2vh;
+}
+#community_container{
+}
+#shop_container{
+}
+.menu_txt{
+    padding-top: 12px;
+}
+.arrow_menu{
+    padding-top: 20px;
+    margin-left: 5px;
+    width: 20%;
+}
+.health_menu{
+    padding-top: 20px;
+    margin-left: 5px;
+    width: 20%;
+}
+.account_menu{
+    padding-top: 18px;
+    margin-left: 5px;
+    width: 16%;
+}
+
+#content_container{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 82vh;
+    display: flex;
+}
+#content_first_half{
+    width: 57%;
+    height: 95%;
+    margin-right: 2vw;
+}
+#content_second_half{
+    width: 43%;
+    height: 95%;
+}
+.content_element{
+    background-color: #1e1e1e;
+    border-radius: 10px;
+
+}
+#search_bar{
+    height: 5vh;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 3vh;
+    margin-bottom: 2%;
+}
+#search_bar::placeholder{
+    text-align:center;
+    font-size: 3vh;
+    color: white;
+}
+#search_bar:focus{
+    border: 4px solid #ffcd29;
+    text-align: center;
+}
+#search_bar:focus::placeholder{
+    color: #1e1e1e;
+}
+#main_content{
+    width: 100%;
+    height: 90%;
+    color: white;
+    text-align: center;
+}
+.main_content_arrow{
+    width: 8%;
+    margin-top: 23%;
+}
+#main_content_arrow_left{
+    transform: rotate(180deg);
+    margin-right: 80%;
+}
+#tips{
+    width: 100%;
+    height: 46%;
+    color: white;
+    text-align: center;
+    margin-bottom: 7%;
+}
+#location{
+    width: 100%;
+    height: 46%;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .hamburger_menu{
+        display: flex;
+        flex:1;
+    }
+    #menu{
+    display: none;        
+    }
+    #content_container{
+        flex:12;
+        margin-top: 0;
+        margin-left: 20%;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+       display:flex;
+       flex-direction:column;
+    }
+    #content_first_half{
+        width: 100%;
+        height: 50%;
+        margin-right: 2vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #content_second_half{
+        margin-top: 20px;
+        display: flex;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+    #tips{
+        width: 100%;
+        height: 100%; 
+        margin-right: 25px;
+    }
+    #location{
+        width: 100%;
+        height: 100%;
+    }
+    .main_content_arrow{
+        margin-top: 125px;
+    }
+    #home_page{
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+        height: 95vh;
+    }
+
+  }
+
+
