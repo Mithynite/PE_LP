@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 51px;
 }
 .title_element{
     background-color: rgba(51,68,100,255);
