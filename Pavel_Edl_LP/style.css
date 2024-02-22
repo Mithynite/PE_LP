@@ -1,5 +1,5 @@
 body{
-  
+    
     font-family: Arial, sans-serif;
 }
 .main_container{
@@ -8,7 +8,7 @@ body{
     height: 100%;
     display: flex;
     flex-direction: row;
-    gap:9%;
+    gap:8%;
 }
 .first_part{
     margin-left: 20%;
