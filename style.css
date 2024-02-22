@@ -21,7 +21,7 @@ body{
 }
 .popup_container{
     background-color: rgba(82,95,119,255);
-    width: 86%;
+    width: 85%;
     height: 70%;
     border-radius: 20px;
     display: flex;
